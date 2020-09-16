@@ -83,6 +83,7 @@ namespace Lumm
 
             lbl = new Label()
             {
+
                 Text = "",
                 FontAttributes = FontAttributes.Bold,
                 Margin = 10,
