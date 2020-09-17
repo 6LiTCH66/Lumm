@@ -10,7 +10,7 @@ namespace Lumm
         {
             InitializeComponent();
 
-            MainPage = new Lumememm();
+            MainPage = new AbsLumememm();
         }
 
         protected override void OnStart()

@@ -157,7 +157,7 @@ namespace Lumm
             await Task.Run(() => Thread.Sleep(1000));
             box3.Opacity = 0.25;
             await Task.Run(() => Thread.Sleep(1000));
-            box3.Opacity = 10;
+            box3.Opacity = 0.10;
             await Task.Run(() => Thread.Sleep(1000));
             box3.Opacity = 0;
             await Task.Run(() => Thread.Sleep(1000));
