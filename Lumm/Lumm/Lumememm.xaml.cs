@@ -126,13 +126,42 @@ namespace Lumm
 
         private async void Btn4_Clicked(object sender, EventArgs e)
         {
+            box4.Opacity = 0.5;
+            await Task.Run(() => Thread.Sleep(1000));
+            box4.Opacity = 0.25;
+            await Task.Run(() => Thread.Sleep(1000));
+            box4.Opacity = 0.10;
+            await Task.Run(() => Thread.Sleep(1000));
             box4.Opacity = 0;
+            await Task.Run(() => Thread.Sleep(1000));
+
+            box1.Opacity = 0.5;
+            await Task.Run(() => Thread.Sleep(1000));
+            box1.Opacity = 0.25;
+            await Task.Run(() => Thread.Sleep(1000));
+            box1.Opacity = 0.10;
             await Task.Run(() => Thread.Sleep(1000));
             box1.Opacity = 0;
             await Task.Run(() => Thread.Sleep(1000));
+
+            box2.Opacity = 0.5;
+            await Task.Run(() => Thread.Sleep(1000));
+            box2.Opacity = 0.25;
+            await Task.Run(() => Thread.Sleep(1000));
+            box2.Opacity = 0.10;
+            await Task.Run(() => Thread.Sleep(1000));
             box2.Opacity = 0;
             await Task.Run(() => Thread.Sleep(1000));
+
+            box3.Opacity = 0.5;
+            await Task.Run(() => Thread.Sleep(1000));
+            box3.Opacity = 0.25;
+            await Task.Run(() => Thread.Sleep(1000));
+            box3.Opacity = 10;
+            await Task.Run(() => Thread.Sleep(1000));
             box3.Opacity = 0;
+            await Task.Run(() => Thread.Sleep(1000));
+
         }
 
         Random rnd = new Random();
